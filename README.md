@@ -13,10 +13,10 @@ Example test object:
   
     var testObject = 
         {
-          "addOne",{params:[1],returnVal:2},
-          "subtract",{params:[20,10],returnVal:10},
-          "removeChar",{params:["mississippi","i"],returnVal:"msssspp"},
-          "notTrue",{params:[true],returnVal:false}
+          "addOne":{params:[1],returnVal:2},
+          "subtract":{params:[20,10],returnVal:10},
+          "removeChar":{params:["mississippi","i"],returnVal:"msssspp"},
+          "notTrue":{params:[true],returnVal:false}
         };
 
 2) Use the TestBuilder service in TestApp.  
