@@ -12,7 +12,7 @@ function testThis(){
   Logger.log(th.foo); // foo <- mutated
 }
 
-// object always get there own "this"
+// object always get their own "this"
 var o = { 
   t1: function(){  
   var th1 = this;
